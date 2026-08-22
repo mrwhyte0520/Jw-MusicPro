@@ -35,7 +35,10 @@ export default function HomeScreen() {
         <ThemedView style={styles.heroSection}>
           <AnimatedIcon />
           <ThemedText type="title" style={styles.title}>
-            Welcome to&nbsp;Expo
+            JW&nbsp;MusicPro
+          </ThemedText>
+          <ThemedText type="subtitle" themeColor="textSecondary" style={styles.subtitle}>
+            Tu música, siempre contigo
           </ThemedText>
         </ThemedView>
 
@@ -84,6 +87,11 @@ const styles = StyleSheet.create({
   },
   title: {
     textAlign: 'center',
+  },
+  subtitle: {
+    textAlign: 'center',
+    fontSize: 20,
+    lineHeight: 28,
   },
   code: {
     textTransform: 'uppercase',
